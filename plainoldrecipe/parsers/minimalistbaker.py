@@ -1,6 +1,12 @@
 from parsers.recipe import WpJsonRecipe
 
+<<<<<<< HEAD:parsers/minimalistbaker.py
 class Minimalistbaker(WpJsonRecipe):
+=======
+from .recipe import Recipe
+
+class Minimalistbaker(Recipe):
+>>>>>>> 257c167 (Updated the project to be a python package):plainoldrecipe/parsers/minimalistbaker.py
 
     def get_json_recipe(self, d):
         recipe = super().get_json_recipe(d)

@@ -1,4 +1,4 @@
-from parsers.recipe import Recipe
+from .recipe import Recipe
 import json
 
 class Letsdishrecipes(Recipe):

@@ -1,6 +1,6 @@
 import json
 
-from parsers.recipe import Recipe
+from .recipe import Recipe
 
 class Smittenkitchen(Recipe):
 
