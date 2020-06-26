@@ -4,7 +4,7 @@
     <p>Take a recipe website URL and remove the cruft.</p>
 
     <div class="recipe-input">
-        <form method="GET" action="/recipe">
+        <form method="GET" action="{{ url_for('recipe') }}">
             <input type="text" name="url" autofocus />
             <button type="submit">
                 Simplify...
