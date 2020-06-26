@@ -1,3 +1,10 @@
+This fork adds a button to the bottom of each recipe, which lets you copy a markdown formatted version to your clipboard.
+This version is hosted at https://bredley.co.uk/recipes.
+
+To run it yourself, run `pipenv install`, and then `pipenv run python run.py`. Alternatively, 'plainoldrecipe.wsgi' can be used with Apache.
+
+Original README
+===
 This program parses recipes from common websites and displays them using
 plain-old HTML.
 
