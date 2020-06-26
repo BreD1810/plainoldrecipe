@@ -27,5 +27,36 @@
     </ol>
 
     <a href="{{recipe['url']}}">{{recipe['url']}}</a>
+    <br>
+    <button onclick="copyMD()">Copy Markdown to Clipboard</button>
+
+    <script>
+
+        function copyMD() {
+var copyText = `\
+{{recipe['name']}}
+===
+{{recipe['url']}}
+{{recipe['description']}}
+![]({{recipe['image']}})
+
+## Ingredients
+{% for i in recipe['ingredients'] %}
+- {{i}}
+{% endfor %}
+
+## Method
+{% for i in recipe['instructions'] %}
+- {{i}}
+{% endfor %}
+
+            `;
+            // copyText.select();
+            // copyText.setSelectionRange(0, 99999); /* For mobile devices */
+            navigator.clipboard.writeText(copyText);
+            console.log(copyText);
+            document.execCommand("copy");
+        }
+    </script>
 
 {% include 'footer.html' %}
