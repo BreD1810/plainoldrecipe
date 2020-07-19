@@ -47,12 +47,8 @@ var copyText = `\
 
 ## Method
 {% for i in recipe['instructions'] %}
-- {{i}}
-{% endfor %}
-
-            `;
-            // copyText.select();
-            // copyText.setSelectionRange(0, 99999); /* For mobile devices */
+{{ loop.index0 + 1}}. {{i}}
+{% endfor %}`;
             navigator.clipboard.writeText(copyText);
             console.log(copyText);
             document.execCommand("copy");
