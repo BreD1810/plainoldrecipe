@@ -5,7 +5,7 @@ from . import parsers
 import logging
 
 app = Flask(__name__)
-app.config['APPLICATION_ROOT'] = '/plainoldrecipe'
+app.config['APPLICATION_ROOT'] = '/recipes'
 
 def scrape_recipe(url):
     recipe = {}
