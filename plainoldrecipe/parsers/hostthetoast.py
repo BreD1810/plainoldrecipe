@@ -1,4 +1,4 @@
-from parsers.recipe import WpJsonRecipe
+from .recipe import WpJsonRecipe
 
 class Hostthetoast(WpJsonRecipe):
     pass

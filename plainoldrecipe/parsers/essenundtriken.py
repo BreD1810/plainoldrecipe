@@ -1,6 +1,6 @@
 import json
 import re
-from parsers.recipe import Recipe
+from .recipe import Recipe
 
 class EssenUndTrinken(Recipe):
 

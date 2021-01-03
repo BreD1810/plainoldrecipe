@@ -1,20 +1,20 @@
-from parsers.gimmesomeoven import Gimmesomeoven
-from parsers.smittenkitchen import Smittenkitchen
-from parsers.letsdishrecipes import Letsdishrecipes
-from parsers.lovingitvegan import Lovingitvegan
-from parsers.minimalistbaker import Minimalistbaker
-from parsers.bowlofdelicious import Bowlofdelicious
-from parsers.chefkoch import Chefkoch
-from parsers.hostthetoast import Hostthetoast
-from parsers.lecker import Lecker
-from parsers.essenundtriken import EssenUndTrinken
-from parsers.kuechengoetter import Kuechengoetter
-from parsers.kochbar import Kochbar
-from parsers.hostthetoast import Hostthetoast
-from parsers.thewoksoflife import Thewoksoflife
-from parsers.glebekitchen import GlebeKitchen
-from parsers.akispetretzikis import AkisPetretzikis
-from parsers.hervecuisine import Hervecuisine
+from .gimmesomeoven import Gimmesomeoven
+from .smittenkitchen import Smittenkitchen
+from .letsdishrecipes import Letsdishrecipes
+from .lovingitvegan import Lovingitvegan
+from .minimalistbaker import Minimalistbaker
+from .bowlofdelicious import Bowlofdelicious
+from .chefkoch import Chefkoch
+from .hostthetoast import Hostthetoast
+from .lecker import Lecker
+from .essenundtriken import EssenUndTrinken
+from .kuechengoetter import Kuechengoetter
+from .kochbar import Kochbar
+from .hostthetoast import Hostthetoast
+from .thewoksoflife import Thewoksoflife
+from .glebekitchen import GlebeKitchen
+from .akispetretzikis import AkisPetretzikis
+from .hervecuisine import Hervecuisine
 
 # Must exclude the "www" portion of the URL
 PARSERS = {

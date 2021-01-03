@@ -1,6 +1,6 @@
 import json
 
-from parsers.recipe import WpJsonRecipe
+from .recipe import WpJsonRecipe
 
 class Thewoksoflife(WpJsonRecipe):
     def get_json_recipe(self, d):

@@ -1,6 +1,6 @@
 import json
 from re import split
-from parsers.recipe import Recipe
+from .recipe import Recipe
 
 
 class AkisPetretzikis(Recipe):
